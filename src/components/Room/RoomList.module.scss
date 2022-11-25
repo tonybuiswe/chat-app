@@ -1,0 +1,17 @@
+.panel {
+  & > div {
+    color: #fff !important;
+    padding-bottom: 0 !important;
+  }
+
+  a {
+    display: block;
+    text-align: left;
+  }
+
+
+}
+
+.addRoomBtn {
+  color: #fff;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'antd/es/grid'
-import UserInfo from './UserInfo'
+import SidebarHeader from './SidebarHeader'
 import RoomList from './RoomList'
 import classes from './Sidebar.module.scss'
 
@@ -9,7 +9,7 @@ function Sidebar() {
         <div className={classes.wrapper}>
             <Row>
                 <Col span={24}>
-                    <UserInfo />
+                    <SidebarHeader />
                 </Col>
                 <Col span={24}>
                     <RoomList />

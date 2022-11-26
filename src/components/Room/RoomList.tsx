@@ -7,9 +7,9 @@ import { PlusSquareOutlined } from '@ant-design/icons'
 
 function RoomList() {
     return (
-        <Collapse ghost defaultActiveKey={['1']}>
+        <Collapse ghost defaultActiveKey={['10']}>
             <Collapse.Panel
-                key="1"
+                key="10"
                 header="Room list"
                 className={classes.panel}
             >
@@ -17,14 +17,13 @@ function RoomList() {
                 <Link>Room 2</Link>
                 <Link>Room 3</Link>
             </Collapse.Panel>
-            <Button
-                type="text"
-                ghost
-                className={classes.addRoomBtn}
-                icon={<PlusSquareOutlined />}
-            >
-                Add room
-            </Button>
+            {/*<Button*/}
+            {/*    type="text"*/}
+            {/*    className={classes.addRoomBtn}*/}
+            {/*    icon={<PlusSquareOutlined />}*/}
+            {/*>*/}
+            {/*    Add room*/}
+            {/*</Button>*/}
         </Collapse>
     )
 }

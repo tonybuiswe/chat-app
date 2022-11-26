@@ -1,0 +1,77 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 16px;
+  border-bottom: 1px solid #ccc;
+
+  .roomInfo {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 12px;
+    }
+  }
+
+  .rightGroup {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  min-height: 0;
+
+  .messageList {
+    overflow-y: scroll;
+    flex: 1;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 2px 2px 0;
+
+    .input {
+      display: block;
+      flex-grow: 1;
+      margin-bottom: 0;
+      height: 100%;
+      margin-right: 5px;
+
+      input {
+        border-radius: 0;
+      }
+
+    }
+
+    button {
+
+      .sendIcon {
+        color: #aaa;
+      }
+
+    }
+  }
+}
+
